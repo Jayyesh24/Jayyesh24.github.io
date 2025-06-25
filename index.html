@@ -1,24 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jayesh Yadav — CS Student at MSU</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; line-height: 1.5; }
+    img { border-radius: 50%; width: 150px; display: block; margin: 1rem auto; }
+    h1 { text-align: center; }
+    p { text-align: center; }
+    a { color: #0066cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <!-- Your GitHub avatar: -->
+  <img src="https://avatars.githubusercontent.com/Jayyesh24?s=200" alt="Jayesh Yadav">
 
+  <h1>Jayesh Yadav</h1>
+  <p>CS Student at Michigan State University</p>
 
-{% include career-profile.html %}
-
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include certifications.html %}
-
-{% include projects.html %}
-
-{% include oss-contributions.html %}
-
-{% include publications.html %}
-
-{% include recommendations.html %}
-
-{% include skills.html %}
+  <p><strong>Email:</strong> <a href="mailto:yadavjay@msu.edu">yadavjay@msu.edu</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/Jayyesh24">github.com/Jayyesh24</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jayesh-yadav">linkedin.com/in/jayesh-yadav</a></p>
+</body>
+</html>
